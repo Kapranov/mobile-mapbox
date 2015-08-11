@@ -1,4 +1,4 @@
-REAST API application use MapBox APIs.
+REAST API application use Mapbox APIs.
 -------------------------------------
 
 To create a functional, allowing to build
@@ -14,6 +14,9 @@ service and send it to the mobile application.
     between them to do this, use Mapbox
     [Mapbox APIs](http://www.mapbox.com/developers/api).
     These you can create an account to get the APIs key.
+
+3. API send to data to the mobile client.
+  * Format JSON APIs comes from the mobile team.
 
 
 
