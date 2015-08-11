@@ -50,5 +50,6 @@ service and send it to the mobile application.
       ]
     }
   }
+'''
 
 ##### 11 August 2015 Oleg G.kapranov
