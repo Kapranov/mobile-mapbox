@@ -8,6 +8,10 @@ service and send it to the mobile application.
 1. Adding points (places)
   * Create simple web page that will be able
      to add / delete points(places).
+  * Attributes places will be:
+    * to name
+    * latitude
+    * longtude
 
 2. Building route through a third-party service Mapbox.
   * Using these points (places) you need to build a path
