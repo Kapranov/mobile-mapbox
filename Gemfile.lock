@@ -39,6 +39,7 @@ GEM
     arel (6.0.3)
     builder (3.2.2)
     erubis (2.7.0)
+    geocoder (1.2.9)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
@@ -101,6 +102,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  geocoder
   jsonapi-resources
   rails (= 4.2.3)
   rails-api
