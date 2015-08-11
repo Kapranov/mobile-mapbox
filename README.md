@@ -23,33 +23,32 @@ service and send it to the mobile application.
   * Format JSON APIs comes from the mobile team.
 
 '''
-    {
-      "route": {
-        "id": "1",
-        "places": [
-          {
-            "id": "1",
-            "lat": "48.00",
-            "lon": "37.00"
-          },
-          {
-            "id": "2",
-            "lat": "49.00",
-            "lon": "38.00"
-          }
-        ],
-        "coordinates": [
-          {
-            "lat": "48.00",
-            "lon": "48.50"
-          },
-          {
-            "lat": "49.00",
-            "lon": "49.50"
-          }
-        ]
-      }
+  {
+    "route": {
+      "id": "1",
+      "places": [
+        {
+          "id": "1",
+          "lat": "48.00",
+          "lon": "37.00"
+        },
+        {
+          "id": "2",
+          "lat": "49.00",
+          "lon": "38.00"
+        }
+      ],
+      "coordinates": [
+        {
+          "lat": "48.00",
+          "lon": "48.50"
+        },
+        {
+          "lat": "49.00",
+          "lon": "49.50"
+        }
+      ]
     }
-
+  }
 
 ##### 11 August 2015 Oleg G.kapranov
