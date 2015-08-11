@@ -1,6 +1,6 @@
 Rails.application.configure do
   config.cache_classes = false
-  config.eager_load = true
+  config.eager_load = false
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = false
   config.action_mailer.raise_delivery_errors = false

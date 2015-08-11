@@ -61,7 +61,7 @@ Launch the app
 
 Create a new place
 ```bash
-curl -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST -d
+curl -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST -d '{"data":"type":"places", "attributes":{"name":"Test", "lat":"48.00", "lon":"37.00"}}}' http://212.26.132.49:2273/places
 ```
 
 
