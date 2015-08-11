@@ -22,8 +22,7 @@ service and send it to the mobile application.
 3. API send to data to the mobile client.
   * Format JSON APIs comes from the mobile team.
 
-'''
-   json
+```json
 
   {
     "route": {
@@ -53,6 +52,6 @@ service and send it to the mobile application.
     }
   }
 
-'''
+```
 
 ##### 11 August 2015 Oleg G.kapranov
