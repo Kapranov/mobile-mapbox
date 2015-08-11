@@ -54,4 +54,15 @@ service and send it to the mobile application.
 
 ```
 
+Launch the app
+```bash
+  ./server.sh
+```
+
+Create a new place
+```bash
+curl -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST -d
+```
+
+
 ##### 11 August 2015 Oleg G.kapranov
