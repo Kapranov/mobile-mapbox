@@ -5,6 +5,9 @@ To create a functional, allowing to build
 a route between two points throught a third-party
 service and send it to the mobile application.
 
+* Adding points (places)
+Create simple web page that will be able to add / delete
+points(places).
 
 
 
