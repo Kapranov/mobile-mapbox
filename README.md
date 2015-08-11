@@ -64,5 +64,16 @@ Create a new place
 curl -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST -d '{"data":"type":"places", "attributes":{"name":"Test", "lat":"48.00", "lon":"37.00"}}}' http://212.26.132.49:2273/places
 ```
 
+You should get something like this back
+```
+HTTP/1.1 400 Bad Request 
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+X-Request-Id: f360b6b9-a15f-4261-a7cd-d4c3452f2eaf
+X-Runtime: 0.018925
+Server: WEBrick/1.3.1 (Ruby/2.2.2/2015-04-13)
+Date: Tue, 11 Aug 2015 15:14:32 GMT
+Connection: Keep-Alive
+```
 
 ##### 11 August 2015 Oleg G.kapranov
