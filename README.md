@@ -61,7 +61,15 @@ Launch the app
 
 Create a new place
 ```bash
-curl -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST -d '{"data":"type":"places", "attributes":{"name":"Test", "lat":"48.00", "lon":"37.00"}}}' http://212.26.132.49:2273/places
+curl -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST -d '{"data": {"type":"places", "attributes":{"name":"St Pancras Station, London", "lat":"51.5303972", "lon":"-0.1238579"}}}' http://212.26.132.49:2273/places
+```
+
+```bash
+curl -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST -d '{"data": {"type":"coordinates", "attributes":{"lat":"51.4778185", "lon":"-0.0012777"}}}' http://212.26.132.49:2273/coordinates
+```
+
+```bash
+curl -i -H "Accept: application/vnd.api+json" -H 'Content-Type:application/vnd.api+json' -X POST -d '{"data": {"type":"routes", "relationships":{"place":{"data":{"type":"places", "id":"1"}},"coordinate":{"data":{"type":"coordinates", "id":"1"}}}}}' http://212.26.132.49:2273/routes
 ```
 
 You should get something like this back
